@@ -23,104 +23,77 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script>
     // Read the CSV data
-    d3.csv("https://raw.githubusercontent.com/fantastic900/D3_CirclePack/master/New_Completed.csv").then(function(data) {
-      const root = {
-        name: "Root",
-        children: []
-      };
-
-      const parentNames = data.columns;
-
-      // Create parent objects
-      parentNames.forEach(parentName => {
-        root.children.push({
-          name: parentName,
-          children: []
-        });
-      });
-
-      // Populate children within each parent
-      data.forEach(row => {
-        parentNames.forEach(parentName => {
-          const value = row[parentName];
-          if (value) {
-            const parentIndex = parentNames.indexOf(parentName);
-            root.children[parentIndex].children.push({
-              name: value
-            });
+    d3.csv("https://raw.githubusercontent.com/fantastic900/D3_Network_Connection/master/categorized_services_corrected.csv").then(function(data) {
+      
+      const keywordsSet = new Set();
+      data.forEach(function(row) {
+        Object.values(row).forEach(function(keyword) {
+          if (keyword !== "") {
+            keywordsSet.add(keyword);
           }
         });
       });
 
-      // Preprocess the data
-      const pack = d3.pack()
-        .size([600, 600])
-        .padding(3);
+      // Convert Set to an array of objects
+      const keywords = Array.from(keywordsSet).map(function(keyword) {
+        return { name: keyword };
+      });
 
-      const hierarchy = d3.hierarchy(root)
-        .sum(d => d.children ? 0 : 1)
-        .sort((a, b) => b.value - a.value);
+      // Step 3: Create the main visualization
+      const width = 800;
+      const height = 600;
+      const svg = d3.select('body')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height);
 
-      pack(hierarchy);
+      // Define color scale for the circles
+      const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+        .domain(keywords.map(function(d) { return d.name; })); 
 
-      // Create the SVG container
-      const svg = d3.select("body")
-        .append("svg")
-        .attr("width", 600)
-        .attr("height", 600);
+      const simulation = d3.forceSimulation(keywords)
+        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('collide', d3.forceCollide(30))
+        .on('tick', ticked);
 
-      // Create the circles
-      const node = svg.append("g").selectAll("circle")
-        .data(hierarchy.descendants().slice(1))
-        .join("circle")
-        .attr("class", d => d.children ? "node" : "leaf node")
-        .attr("fill", d => d.children ? "steelblue" : "lightgray")
-        .attr("r", d => {
-        	return d.r
+      // Position the circles and add keyword labels
+      const circles = svg.selectAll('circle')
+        .data(keywords)
+        .enter()
+        .append('circle')
+        .attr('r', 20)
+        .style('fill', function(d) {
+          return colorScale(d.name);
+        });
+
+      // Add keyword labels to the circles
+      const labels = svg.selectAll('text')
+        .data(keywords)
+        .enter()
+        .append('text')
+        .text(function(d) {
+          return d.name;
         })
-        .attr("cx", d => d.x)
-        .attr("cy", d => d.y);
+        .attr('text-anchor', 'middle')
+        .attr('alignment-baseline', 'middle')
+        .style('fill', 'black');
 
-      // Add labels to the circles
-      const label = svg.selectAll(".leaf.node")
-        .append("text")
-        .attr("dy", "-1em")
-        .text(d => d.parent.data.name)
-        .attr("text-anchor", "middle")
-        .attr("font-size", "10px");
+      // Update circle and label positions on each tick of the simulation
+      function ticked() {
+        circles.attr('cx', function(d) {
+            return d.x;
+          })
+          .attr('cy', function(d) {
+            return d.y;
+          });
 
-      // Add tooltip on hover
-      node.filter(d => !d.children) // Exclude outer circles
-        .append("title")
-        .text(d => d.data.name);
-
-      // Zoom behavior
-      svg.call(d3.zoom().on("zoom", function() {
-        svg.attr("transform", d3.event.transform);
-      }));
-
-      // Add labels for parent names
-      const groupLabel = svg.append("g")
-	    .attr("pointer-events", "none")
-	    .attr("text-anchor", "middle")
-	    .selectAll("text")
-	    .data(hierarchy.descendants())
-	    .join("text")
-	    .text(d => d.height === 1 ? d.data.name : '');
-	  
-	  groupLabel
-	    .attr("transform", d => `translate(${(d.x)}, ${(d.y - (d.r))})`)
-	    .attr("dy", "-0.25em")
-	    .attr("class", "repo-name")
-	    .attr("fill", "#fff")
-	    .clone(true)
-        .lower()
-        .attr("aria-hidden", "true")
-        .attr("fill", "none")
-        .attr("stroke", "#6A1131")
-        .attr("stroke-width", 2)
-        .attr("stroke-linecap", "round")
-        .attr("stroke-linejoin", "round");
+        labels.attr('x', function(d) {
+            return d.x;
+          })
+          .attr('y', function(d) {
+            return d.y;
+          });
+      }
     });
   </script>
 </body>
