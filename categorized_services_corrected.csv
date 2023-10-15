@@ -1,0 +1,254 @@
+Municipality,DEWA ,KHDA,Police,DESC,Dubai Land,MBRHE (Housing),GDRFAD (Residency),DCD,CDA,RTA,DHA
+Application,Payment,Contract,Status,Trust Services,Location Services,Application,Other,Certificate,Other,Other,Other
+Application,Other,Contract,Other,Other,Real Estate,Application,Other,Certificate,Other,Other,Other
+Application,Other,Other,Other,Other,Real Estate,Application,Other,Certificate,Other,Other,Other
+Application,Other,Certificate,Other,Other,Other,Application,Other,Other,Other,Other,Other
+Application,Other,Other,Other,Other,Other,Application,Visa and Residency,Certificate,Other,Other,Other
+Application,Other,Other,Other,Other,Other,Application,Other,Other,Other,Other,Other
+Application,Other,Other,Other,Utility and Infrastructure,Other,Application,Permit,Other,Other,Other,Other
+Application,Other,Permit,Other,Certificate,Other,Other,Other,Certificate,Other,Application,Other
+Application,Other,,Other,Other,Certificate,Application,Other,Request,Other,Application,Other
+Application,Other,,Permit,,Other,Application,Visa and Residency,Request,Medical Services,Other,Other
+Application,Other,,Permit,,Real Estate,Application,Visa and Residency,Request,Registration,Application,Other
+Application,Other,,Permit,,Licensing,Application,Licensing,Request,Other,Other,Other
+Application,Verification and Validation,,Request,,Other,Application,Visa and Residency,Request,Other,Other,Other
+Application,Other,,Permit,,Other,Application,Visa and Residency,Request,Other,Other,Medical Services
+Application,Other,,Permit,,Real Estate,Application,Visa and Residency,Request,Other,Other,Other
+Application,Other,,Permit,,Real Estate,Application,Visa and Residency,Request,Other,Other,Medical Services
+Application,Other,,Other,,Real Estate,Other,Other,Request,Other,Other,Other
+Application,Other,,Other,,Other,Application,Other,Request,Other,Other,Other
+Application,Other,,Other,,Application,Application,Licensing,Request,Other,Other,Other
+Application,Payment,,Legal and Compliance,,Status,Documentation,Other,Permit,Request,Other,Other
+Application,Other,,Other,,Other,Request,Other,Request,,Other,Other
+Application,Other,,Other,,Real Estate,Application,Other,Request,,Application,Other
+Application,Other,,Other,,Real Estate,Other,Permit,Request,,Application,Other
+Application,Other,,Other,,Real Estate,Application,Other,Request,,Application,Other
+Application,Other,,Financial Services,,Real Estate,Application,Other,Request,,Application,Other
+Application,Other,,Other,,Status,Application,Other,Request,,Other,Other
+Application,Other,,Certificate,,Rental Services,Application,Other,Request,,Other,Other
+Application,Request,,Certificate,,Other,Other,Licensing,Request,,Other,Other
+Application,Certificate,,Certificate,,Other,Application,Other,Request,,Other,Other
+Application,Licensing,,Certificate,,Registration,Application,Other,Request,,Other,Other
+Application,Other,,Certificate,,Certificate,Request,Licensing,Request,,Other,Other
+Application,Request,,Certificate,,Verification and Validation,Application,Other,Request,,Application,Other
+Application,Other,,Other,,Real Estate,Application,Other,Request,,Application,Other
+Application,Payment,,Other,,Certificate,Application,Other,Documentation,,Application,Other
+Application,Other,,Other,,Certificate,Registration,Other,Request,,Application,Other
+Application,Other,,Other,,Other,,Other,Other,,Other,Other
+Application,Other,,Other,,Request,,Other,Registration,,Application,Other
+Application,Other,,Other,,Application,,Other,Other,,Application,Other
+Application,Other,,Medical Services,,Licensing,,Other,Other,,Application,Other
+Application,Other,,Other,,Other,,,Other,,Application,Other
+Application,Other,,Other,,Real Estate,,,Request,,Application,Other
+Application,Other,,Other,,Other,,,Other,,Application,Other
+Application,Request,,Other,,Real Estate,,,,,Application,Other
+Application,Other,,Other,,Other,,,,,Application,Other
+Application,Other,,Request,,Application,,,,,Certificate,Other
+Application,Other,,Other,,Application,,,,,Application,Other
+Application,Other,,Other,,Licensing,,,,,Application,Other
+Application,Other,,Other,,Application,,,,,Application,Other
+Application,Other,,Other,,Application,,,,,Application,Other
+Application,Other,,Other,,Licensing,,,,,Application,Other
+Application,Other,,Other,,Application,,,,,Application,Other
+Application,Other,,Application,,Licensing,,,,,Application,Other
+Application,Other,,Request,,Request,,,,,Application,Other
+Application,Other,,Application,,Request,,,,,Application,Other
+Application,Other,,Other,,Application,,,,,Application,Other
+Application,Other,,Verification and Validation,,Request,,,,,Application,Other
+Application,Other,,Request,,Request,,,,,Application,Other
+Application,Other,,Other,,Application,,,,,Application,Other
+Application,Other,,Request,,Request,,,,,Application,Other
+Application,Other,,,,Request,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Request,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Other,Other
+Application,Other,,,,Application,,,,,Other,Other
+Application,Request,,,,Application,,,,,Application,Other
+Application,Request,,,,Request,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Certificate,,,,Application,,,,,Application,Other
+Application,Other,,,,Request,,,,,Application,Other
+Application,Certificate,,,,Request,,,,,Application,Other
+Application,Certificate,,,,Request,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Certificate,,,,Legal and Compliance,,,,,Application,Medical Services
+Application,Other,,,,Other,,,,,Other,Medical Services
+Application,Certificate,,,,Other,,,,,Application,Other
+Application,Other,,,,Other,,,,,Application,Other
+Application,Utility and Infrastructure,,,,Other,,,,,Application,Other
+Application,Other,,,,Other,,,,,Application,Other
+Application,Other,,,,Other,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Other,Other
+Application,Other,,,,Other,,,,,Other,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Other,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Application,Other
+Application,Other,,,,Application,,,,,Other,Other
+Application,Other,,,,Application,,,,,Application,Other
+,Other,,,,Other,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Request,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Request,,,,Application,,,,,Application,Other
+,Request,,,,Application,,,,,Application,Other
+,Request,,,,Application,,,,,Application,Other
+,Request,,,,Application,,,,,Other,Other
+,Other,,,,Application,,,,,Other,Other
+,Other,,,,Application,,,,,Other,Other
+,Other,,,,Application,,,,,Other,Other
+,Other,,,,Application,,,,,Other,Medical Services
+,Other,,,,Application,,,,,Other,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Other,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Medical Services
+,Partnerships and Collaboration,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Registration,,,,,Application,Other
+,Other,,,,Financial Services,,,,,Application,Other
+,Other,,,,Other,,,,,Application,Other
+,Other,,,,Other,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Other,Other
+,Registration,,,,Application,,,,,Other,Insurance
+,Other,,,,Application,,,,,Application,Insurance
+,Other,,,,Application,,,,,Other,Medical Services
+,Other,,,,Application,,,,,Application,Request
+,Other,,,,Application,,,,,Application,Request
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Application
+,Other,,,,Other,,,,,Application,Other
+,Other,,,,Application,,,,,Application,Medical Services
+,Other,,,,Application,,,,,Application,Application
+,Other,,,,Application,,,,,Application,Medical Services
+,Other,,,,Application,,,,,Application,Certificate
+,Other,,,,Application,,,,,Application,Certificate
+,Application,,,,Application,,,,,Application,Other
+,,,,,Application,,,,,Application,Licensing
+,,,,,Other,,,,,Application,Licensing
+,,,,,Application,,,,,Application,Registration
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Registration
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Legal and Compliance
+,,,,,,,,,,Application,Application
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Legal and Compliance
+,,,,,,,,,,Application,Permit
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Other,Other
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Other,Other
+,,,,,,,,,,Other,Other
+,,,,,,,,,,Other,Licensing
+,,,,,,,,,,Other,Licensing
+,,,,,,,,,,Other,Licensing
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Rental Services,Application
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Application
+,,,,,,,,,,Application,Certificate
+,,,,,,,,,,Application,Certificate
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Other,Licensing
+,,,,,,,,,,Application,Licensing
+,,,,,,,,,,Other,Registration
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Rental Services,Other
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Registration
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Legal and Compliance
+,,,,,,,,,,Application,Request
+,,,,,,,,,,Application,Other
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Bidding
+,,,,,,,,,,Application,Insurance
+,,,,,,,,,,Application,Medical Services
+,,,,,,,,,,Application,Auditing
+,,,,,,,,,,Application,Request
+,,,,,,,,,,,Auditing
+,,,,,,,,,,,Permit
