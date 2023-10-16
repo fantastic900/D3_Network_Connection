@@ -39,9 +39,13 @@
         return { name: keyword };
       });
 
+      const departments = data.columns.map(function(department) {
+        return {name: department};
+      })
+
       // Step 3: Create the main visualization
-      const width = 800;
-      const height = 600;
+      const width = 1000;
+      const height = 800;
       const svg = d3.select('body')
         .append('svg')
         .attr('width', width)
@@ -53,7 +57,7 @@
 
       const simulation = d3.forceSimulation(keywords)
         .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('collide', d3.forceCollide(30))
+        .force('collide', d3.forceCollide(60))
         .on('tick', ticked);
 
       // Position the circles and add keyword labels
@@ -61,7 +65,7 @@
         .data(keywords)
         .enter()
         .append('circle')
-        .attr('r', 20)
+        .attr('r', 50)
         .style('fill', function(d) {
           return colorScale(d.name);
         });
